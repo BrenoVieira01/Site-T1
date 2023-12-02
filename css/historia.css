@@ -1,0 +1,31 @@
+.content-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.content .content-container {
+    margin-bottom: 50px;
+}   
+
+.image-set {
+    margin-bottom: 20px;
+}
+
+.image-set img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 1px;
+}
+.content p {
+    margin-bottom: 30px;
+    text-align: justify;
+   
+}

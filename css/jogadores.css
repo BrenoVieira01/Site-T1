@@ -1,0 +1,29 @@
+.content-container {
+    background-color: #f5f5f5;
+    padding: 20px; 
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.image-set {
+    margin-bottom: 20px;
+}
+
+.image-set img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.9); /* Cor vermelha com 50% de opacidade */
+    
+}
+
+.content{
+    text-align: center;
+}
+
+.content p {
+    margin-bottom: 30px;
+}

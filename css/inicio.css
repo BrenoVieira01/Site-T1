@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    width: 1200px;
+    margin: 20px auto;
+    margin-bottom: 100px;
+}
+.popup-image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-top: 50px;
+}
+
+.popup-image img {
+    width: 100%;
+    transition: all 0.1s linear;
+    height: 100%;
+}
+.popup-image img:hover{
+    transform: scale(1.1);
+ }
